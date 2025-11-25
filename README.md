@@ -103,7 +103,7 @@ Predictions are visualized and quantitative errors (MSE/RMSE) are logged for eac
 
 **Example of Field Reconstruction Result (at 200 Epochs):**
 
-![Field Reconstruction Example (200 epochs)](result_images/reconstruction_200E.png)
+![Field Reconstruction Example (200 epochs)](Result_images/reconstruction_200E.png)
 
 *From left to right: Ground Truth Field, Nearest Neighbor Interpolation, Model Reconstruction (after 200 training epochs).*
 
