@@ -27,7 +27,7 @@ Multiple setups are tested, varying the number of sensors, field snapshots, and 
 You will need the following files to run the experiments (included or generated/noted in `data_generation.ipynb`):
 - `record_x.csv` — X-coordinates of the grid
 - `record_y.csv` — Y-coordinates of the grid
-- `ch_2Dxysec.pickle` — 4D array with simulated field snapshots
+- `ch_2Dxysec.pickle` — 4D array with simulated field snapshots (NEEDS TO BE DOWNLOADED FROM data_generation.ipynb file)
 - (`Model_2Dxysec_pytorch.pth`, `Model_ResNet_2Dxysec_weights.pth` are model checkpoints generated after training)
 
 ---
