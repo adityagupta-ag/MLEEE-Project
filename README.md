@@ -97,6 +97,25 @@ Each experiment follows:
 
 ---
 
+### Running Inference Only
+
+If you **only want to run inference** (i.e., generate predictions using a pre-trained ResNet model) after downloading all repo files (and the Drive file in `data_generation.ipynb`), you can use the `inference_resnet` notebook/script provided.
+
+- **Requirements:** Make sure the following files exist in your repository root:
+  - `record_x.csv`
+  - `record_y.csv`
+  - `ch_2Dxysec.pickle`
+  - `Model_ResNet_2Dxysec_weights.pth` (pretrained weights)
+
+- **Procedure:**
+  1. Download all the required files as described above with `data_generation.ipynb` for data and by using provided links for weights.
+  2. Run `inference_resnet.ipynb` or `inference_resnet.py` to quickly perform reconstruction on test data without retraining.
+
+This is the recommended approach for users interested solely in evaluating reconstruction performance.
+
+
+---
+
 ## Results
 
 Predictions are visualized and quantitative errors (MSE/RMSE) are logged for each configuration.
