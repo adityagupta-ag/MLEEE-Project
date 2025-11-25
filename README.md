@@ -101,6 +101,12 @@ Each experiment follows:
 
 Predictions are visualized and quantitative errors (MSE/RMSE) are logged for each configuration.
 
+**Example of Field Reconstruction Result (at 200 Epochs):**
+
+![Field Reconstruction Example (200 epochs)](result_images/reconstruction_200E.png)
+
+*From left to right: Ground Truth Field, Nearest Neighbor Interpolation, Model Reconstruction (after 200 training epochs).*
+
 Model history and performance are saved as CSVs:
 - `Model_2Dxysec_pytorch.csv`, `Model_2Dxysec_pytorch_100_sensors.csv` — Training results for various runs
 
